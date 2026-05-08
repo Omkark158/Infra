@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: omkark158/ai-task-worker:latest
+          image: omkark158/ai-task-worker:872d028d4bbfb24542ba71d0d1b3c40c6c8d9ff0
           envFrom:
             - configMapRef:
                 name: app-config
