@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: omkark158/ai-task-frontend:latest
+          image: omkark158/ai-task-frontend:872d028d4bbfb24542ba71d0d1b3c40c6c8d9ff0
           ports:
             - containerPort: 80
           resources:
