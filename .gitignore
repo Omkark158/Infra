@@ -1,6 +1,7 @@
 # secrets (never commit real secrets)
 *.env
 .env
+k8s/secret.yaml
 
 # OS
 .DS_Store
