@@ -3,16 +3,19 @@
 Kubernetes manifests and ArgoCD configuration for the AI Task Platform.
 
 ## Repository Structure
+
+```
 k8s/
-├── namespace.yaml        # Project namespace
-├── configmap.yaml        # Non-sensitive config (Redis host, port)
-├── secret.yaml           # Placeholders only — create secrets manually
-├── ingress.yaml          # Routes / to frontend, /api to backend
-├── frontend/             # Deployment + Service
-├── backend/              # Deployment + Service
-└── worker/               # Deployment (2 replicas, no service needed)
+├── namespace.yaml
+├── configmap.yaml
+├── secret.yaml
+├── ingress.yaml
+├── frontend/
+├── backend/
+└── worker/
 argocd/
-└── application.yaml      # ArgoCD Application — auto-sync enabled
+└── application.yaml
+```
 
 ## Note
 MongoDB and Redis are cloud-hosted (MongoDB Atlas + Upstash Redis).
