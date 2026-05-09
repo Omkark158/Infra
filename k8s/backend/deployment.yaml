@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: omkark158/ai-task-backend:625e758dce45f2987fdfdf5951c7889a9efc41d9
+          image: omkark158/ai-task-backend:766008e3b3e3b5e489e7a6ee29e1ca127772a28d
           ports:
             - containerPort: 5000
           envFrom:
